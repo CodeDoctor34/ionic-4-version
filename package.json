@@ -3,7 +3,7 @@
   "description": "Version your Ionic app in a `npm version` fashion.",
   "license": "MIT",
   "author": "gorebill <gorebill@163.com>",
-  "repository": "https://github.com/stovmascript/ionic-version.git",
+  "repository": "https://github.com/gorebill/ionic-4-version.git",
   "version": "1.0.0",
   "main": "lib/index.js",
   "bin": {
