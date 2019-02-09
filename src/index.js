@@ -35,10 +35,10 @@ export function version(program, projectPath) {
 	let appPkg;
 
 	try {
-		resolveFrom(projPath, "@ionic/app-scripts");
+		resolveFrom(projPath, "@ionic/core");
 		appPkg = require(appPkgJSONPath);
 	} catch (err) {
-		if (err.message === "Cannot find module '@ionic/app-scripts'") {
+		if (err.message === "Cannot find module '@ionic/core'") {
 			log({
 				style: "red",
 				text: `Is this the right folder? ${err.message} in ${projPath}`
