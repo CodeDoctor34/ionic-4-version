@@ -1,8 +1,8 @@
 {
-  "name": "ionic-version",
+  "name": "ionic-4-version",
   "description": "Version your Ionic app in a `npm version` fashion.",
   "license": "MIT",
-  "author": "Martin Stovicek <martin.stovicek+oss@gmail.com>",
+  "author": "gorebill <gorebill@163.com>",
   "repository": "https://github.com/stovmascript/ionic-version.git",
   "version": "1.0.0",
   "main": "lib/index.js",
