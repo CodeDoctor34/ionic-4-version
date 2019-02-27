@@ -70,7 +70,7 @@ export function version(program, projectPath) {
 
 	const cordovaConfig = new CordovaConfig(path.join(projPath, "config.xml"));
 
-	cordovaConfig.setVersion(appPkg.version);
+	cordovaConfig.setVersion(appPkg.version, true);
 
 	return cordovaConfig
 		.write()
